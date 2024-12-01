@@ -12,7 +12,7 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
  <br />
 Data sent from the DTM0660L chip: 18 bytes at 9600-8-N-1<br />
 - byte 0: 0xFF <br />
-- bytes 0 to 5: digits in reverse order <br />
+- bytes 1 to 5: digits in reverse order <br />
 - byte 11 mode2 <br />
 - byte 12: mode <br />
 - byte 16: unit <br />
