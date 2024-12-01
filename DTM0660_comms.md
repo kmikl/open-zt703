@@ -10,14 +10,13 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 - range button long push: 0x22,0x22 <br />
 - hold button: 0x10,0x10 <br />
  <br />
-Data sent from the DTM0660L chip 18 bytes at 9600-8-N-1<br />
-- byte 0: 0xFF
-- bytes 0 to 5: digits in reverse order
-- byte 11 mode2
-- byte 12: mode
-- byte 16: unit
-- byte 17: checksum + 4
-
+Data sent from the DTM0660L chip: 18 bytes at 9600-8-N-1<br />
+- byte 0: 0xFF <br />
+- bytes 0 to 5: digits in reverse order <br />
+- byte 11 mode2 <br />
+- byte 12: mode <br />
+- byte 16: unit <br />
+- byte 17: checksum + 4 <br />
  <br />
 Digit decoding: <br />
 - 0: 0xEB <br />
