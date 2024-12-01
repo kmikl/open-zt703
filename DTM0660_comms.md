@@ -1,5 +1,5 @@
 This is a work in progress file, basically a notepad <br />
- <br />
+<br />
 Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 <br />
 - voltage button: 0x50,0x50 <br />
@@ -11,14 +11,14 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 - hold button: 0x10,0x10 <br />
  <br />
 Data sent from the DTM0660L chip: 18 bytes at 9600-8-N-1<br />
- <br />
+<br />
 - byte 0: 0xFF <br />
 - bytes 1 to 5: digits in reverse order <br />
 - byte 11 mode2 <br />
 - byte 12: mode <br />
 - byte 16: unit <br />
 - byte 17: checksum + 4 <br />
- <br />
+<br />
 Digit decoding: <br />
  <br />
 - 0: 0xEB <br />
@@ -32,14 +32,14 @@ Digit decoding: <br />
 - 8: 0xEF <br />
 - 9: 0xCF <br />
 If bit 7 is set, the decimal point _before_ the digit is on <br />
- <br />
+<br />
 Mode2 decoding: <br />
  <br />
 - 0x40: Continuity <br />
 - 0x80: Diode <br />
- <br />
+<br />
 Mode decoding: <br />
- <br />
+<br />
 - 0x00: Resistance manual range <br />
 - 0x04: Resistance auto range <br />
 - 0x10: DC manual range <br />
@@ -48,7 +48,7 @@ Mode decoding: <br />
 - 0x44: AC auto range <br />
  <br />
 Unit decoding: <br />
- <br />
+<br />
 - 0x01: A <br />
 - 0x02: V <br />
 - 0x04: nF <br />
