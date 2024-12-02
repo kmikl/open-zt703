@@ -1,4 +1,4 @@
-Known so far for PCB version 2.2: <br />
+Known so far about PCB version 2.2: <br />
 <br />
 - ADC: MXT2088 <br />
 - MCU: STM32H7B0V <br />
