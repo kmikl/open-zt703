@@ -39,10 +39,10 @@ Mode1 decoding: <br />
 - 0x80: Diode <br />
 <br />
 Mode2 decoding: <br />
-- if bit 2 is set -> autoranging
-- if bit 2 is reset -> manual range
-- if bit 4 is set -> DC
-- if bit 6 is set -> AC  
+- if bit 2 is set -> autoranging <br />
+- if bit 2 is reset -> manual range <br />
+- if bit 4 is set -> DC <br />
+- if bit 6 is set -> AC <br />
  <br />
 Unit1 decoding (only used with Farad): <br />
 - 0x40: n <br />
