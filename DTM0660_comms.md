@@ -44,16 +44,16 @@ Mode2 decoding: <br />
 - if bit 4 is set -> DC
 - if bit 6 is set -> AC  
  <br />
-Unit1 decoding: <br />
+Unit1 decoding (only used with Farad): <br />
 - 0x40: n <br />
 - 0x80: µ <br />
 - 0x0C: m <br />
  <br />
 Unit2 decoding: <br />
-- 0x01: A <br />
-- 0x02: V <br />
-- 0x04: F <br />
-- 0x09: mA <br />
+- 0x01: Ampere <br />
+- 0x02: Volt <br />
+- 0x04: Farad <br />
+- 0x09: mAmpere <br />
 - 0x40: Ohm <br />
 - 0x50: MOhm <br />
 - 0x60: kOhm <br />
