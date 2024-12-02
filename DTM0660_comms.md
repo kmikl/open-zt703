@@ -58,5 +58,5 @@ Unit2 decoding: <br />
 - 0x50: MOhm <br />
 - 0x60: kOhm <br />
 <br />
-If bytes 12 to 15 are 0xFE, 0xFF, 0xFF, 0xOE -> overload (bargraph full)
+If bytes 12 to 15 are 0xFE, 0xFF, 0xFF, 0xOE -> overload (bargraph full) <br />
 If the digits are 0x00, 0xEB, 0x61, 0x00, 0x10 -> overload
