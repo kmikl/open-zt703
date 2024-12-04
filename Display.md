@@ -4,7 +4,7 @@ Unknown manufacturer <br />
 Only text readable: XX035009SBIO V2 <br />
 Size: 3.5" <br />
 Resolution: 320x240 <br />
-Pin count 54 <br />
+Pin count: 54 <br />
 Backlight current limit: 20mA <br />
 Backlight voltage: around 17V <br />
 Synchronisation: DE-mode only <br />
@@ -30,7 +30,7 @@ Pin connections: <br />
 - 30-35: R3-R7 -> MCU pins 34,29,68,35,45 <br />
 - 36: HSync -> NC <br />
 - 37: VSync -> NC <br />
-- 38: Pclok -> MCU pin 44 <br />
+- 38: Pclock -> MCU pin 44 <br />
 - 39+40: NC <br />
 - 41+42: Vcc (3V) <br />
 - 43-51: NC <br />
