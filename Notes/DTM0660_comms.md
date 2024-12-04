@@ -1,7 +1,8 @@
 This is a work in progress file, basically a notepad <br />
 <br />
 Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
-- voltage button: 0x50,0x50 <br />
+- V button: 0x50,0x50 <br />
+- mV button: 0x60,0x60 <br /> 
 - resistance/diode/continuity/capacitance button: 0x40,0x40 <br />
 - 10A current button: 0x80,0x80 <br />
 - mA current button: 0x90,0x90 <br />
@@ -39,7 +40,7 @@ Mode1 decoding: <br />
 - 0x80: Diode <br />
 <br />
 Mode2 decoding: <br />
-- if bit 2 is set -> autoranging <br />
+- if bit 2 is set -> auto range <br />
 - if bit 2 is reset -> manual range <br />
 - if bit 4 is set -> DC <br />
 - if bit 6 is set -> AC <br />
@@ -54,6 +55,7 @@ Unit2 decoding: <br />
 - 0x02: Volt <br />
 - 0x04: Farad <br />
 - 0x09: mAmpere <br />
+- 0x0A: mVolt <br />
 - 0x40: Ohm <br />
 - 0x50: MOhm <br />
 - 0x60: kOhm <br />
