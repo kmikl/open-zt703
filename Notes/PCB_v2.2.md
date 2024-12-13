@@ -8,5 +8,5 @@ Known so far about PCB version 2.2: <br />
 - SMPS for the DMM part: VPS8504B + Transformer: VPT 85BB <br />
 - Photorelays for AC/DC coupling: TLP172GM <br />
 - DMM chipset: DTM0660L <br />
-- Analog switch for trigger selection: SGM3157 <br />
+- Analog switch to disable channel 2: SGM3157 <br />
 - Charge pumps for op-amp power supply: SGM3204 <br />

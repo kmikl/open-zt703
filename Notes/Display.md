@@ -1,7 +1,7 @@
 Display <br />
  <br />
 Unknown manufacturer <br />
-Only text readable: XX035009SBIO V2 <br />
+Only readable text: XX035009SBIO V2 <br />
 Size: 3.5" <br />
 Resolution: 320x240 <br />
 Pin count: 54 <br />

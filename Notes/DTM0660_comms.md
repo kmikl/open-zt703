@@ -1,11 +1,12 @@
-This is a work in progress file, basically a notepad <br />
+DTM0660L communication <br />
 <br />
 Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 - V button: 0x50,0x50 <br />
 - mV button: 0x60,0x60 <br /> 
 - resistance/diode/continuity/capacitance button: 0x40,0x40 <br />
-- 10A current button: 0x80,0x80 <br />
-- mA current button: 0x90,0x90 <br />
+- 10A button: 0x80,0x80 <br />
+- mA button: 0x90,0x90 <br />
+- rel (power) button: 0x30,0x30 <br />
 - range button: 0x20,0x20 <br />
 - range button long push: 0x22,0x22 <br />
 - hold button: 0x10,0x10 <br />
@@ -13,13 +14,13 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 Data sent from the DTM0660L chip is basically the segment data: 18 bytes at 9600-8-N-1<br />
 - byte 0: 0xFF <br />
 - bytes 1 to 5: digits in reverse order <br />
-- bytes 6 to 9: 0x00 <br />
+- bytes 6 to 9: unknown, looks like unneded<br />
 - byte 10 mode1 <br />
 - byte 11: mode2 <br />
 - byte 12 to 14: bargraph<br />
 - byte 15: unit1 <br />
 - byte 16: unit2 <br />
-- byte 17: checksum + 4 <br />
+- byte 17: maybe checksum <br />
 <br />
 Digit decoding: <br />
 - 0: 0xEB <br />
@@ -32,10 +33,11 @@ Digit decoding: <br />
 - 7: 0x8A <br />
 - 8: 0xEF <br />
 - 9: 0xCF <br />
-If bit 7 of the first digit is set, the value is negative <br />
-If bit 7 of an other digit is set, the decimal point _before_ the digit is on <br />
+If bit 4 of the first digit is set, the value is negative <br />
+If bit 4 of an other digit is set, the decimal point _before_ the digit is on <br />
 <br />
 Mode1 decoding: <br />
+- 0x20: Relative measurement (hold active) <br />
 - 0x40: Continuity <br />
 - 0x80: Diode <br />
 <br />
