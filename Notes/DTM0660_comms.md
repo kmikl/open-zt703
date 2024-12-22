@@ -9,7 +9,7 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 - rel (power) button: 0x30,0x30 <br />
 - range button: 0x20,0x20 <br />
 - range button long push: 0x22,0x22 <br />
-- hold button: 0x10,0x10 <br />
+- hold button: 0x10,0x10 <- this does not do anything apart from beeping <br />
  <br />
 Data sent from the DTM0660L chip is basically the segment data: 18 bytes at 9600-8-N-1<br />
 - byte 0: 0xFF <br />
@@ -20,7 +20,7 @@ Data sent from the DTM0660L chip is basically the segment data: 18 bytes at 9600
 - byte 12 to 14: bargraph<br />
 - byte 15: unit1 <br />
 - byte 16: unit2 <br />
-- byte 17: maybe checksum <br />
+- byte 17: sum of bytes 0 to 16 +5 or +9, not 100% sure <br />
 <br />
 Digit decoding: <br />
 - 0: 0xEB <br />
@@ -37,7 +37,7 @@ If bit 4 of the first digit is set, the value is negative <br />
 If bit 4 of an other digit is set, the decimal point _before_ the digit is on <br />
 <br />
 Mode1 decoding: <br />
-- 0x20: Relative measurement (hold active) <br />
+- 0x20: Relative measurement <br />
 - 0x40: Continuity <br />
 - 0x80: Diode <br />
 <br />
