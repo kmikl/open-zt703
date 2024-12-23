@@ -20,7 +20,7 @@ Data sent from the DTM0660L chip is basically the segment data: 18 bytes at 9600
 - byte 12 to 14: bargraph<br />
 - byte 15: unit1 <br />
 - byte 16: unit2 <br />
-- byte 17: sum of bytes 0 to 16 +5 or +9, not 100% sure <br />
+- byte 17: checksum of bytes 0 to 16, +5 or +9, not 100% sure <br />
 <br />
 Digit decoding: <br />
 - 0: 0xEB <br />
