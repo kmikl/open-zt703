@@ -14,7 +14,7 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 Data sent from the DTM0660L chip is basically the segment data: 18 bytes at 9600-8-N-1<br />
 - byte 0: 0xFF <br />
 - bytes 1 to 5: digits in reverse order <br />
-- bytes 6 to 9: unknown, looks like unneded<br />
+- bytes 6 to 9: 2nd measurement (frequency in AC mode)<br />
 - byte 10 mode1 <br />
 - byte 11: mode2 <br />
 - byte 12 to 14: bargraph<br />
@@ -37,6 +37,8 @@ If bit 4 of the first digit is set, the value is negative <br />
 If bit 4 of an other digit is set, the decimal point _before_ the digit is on <br />
 <br />
 Mode1 decoding: <br />
+- 0x02: Hz <br />
+- 0x03: kHz <br />
 - 0x20: Relative measurement <br />
 - 0x40: Continuity <br />
 - 0x80: Diode <br />
