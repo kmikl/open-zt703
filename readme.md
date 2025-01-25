@@ -3,8 +3,10 @@ Open source firmware for the Zoyi ZT-703S <br />
 Work in progress <br />
  <br />
 Goals: <br />
-General:
+<br />
+General: <br />
  USB mass storage mode <-done <br />
+<br />
 DMM: <br />
  recreate original functionality <-done <br />
  switchable analog scale (bargraph) <br />
@@ -22,5 +24,6 @@ Scope: <br />
  voltage calibration <br />
  <br />
 Signal generator (still a toy): <br />
+ PWM output <-done <br />
  user stored waveforms in addition to the standard ones <br />
 
