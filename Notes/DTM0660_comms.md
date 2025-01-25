@@ -7,9 +7,9 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 - 10A button: 0x80,0x80 <br />
 - mA button: 0x90,0x90 <br />
 - rel (power) button: 0x30,0x30 <br />
-- range button: 0x20,0x20 <br />
-- range button long push: 0x22,0x22 <br />
-- hold button: 0x10,0x10 <- this does not do anything apart from beeping and setting bit7 in byte 11 <br />
+- range button: 0x20,0x20 <- cylces through the manual ranges <br />
+- range button long push: 0x22,0x22 <- this switches to autrange <br /> 
+- hold button: 0x10,0x10 <- this does not do anything apart from beeping and setting the hold bit in byte mode2 <br />
  <br />
 Data sent from the DTM0660L chip is basically the segment data: 18 bytes at 9600-8-N-1<br />
 - byte 0: 0xFF <br />
@@ -65,5 +65,4 @@ Unit2 decoding: <br />
 - 0x50: MOhm <br />
 - 0x60: kOhm <br />
 <br />
-If bytes 12 to 15 are 0xFE, 0xFF, 0xFF, 0xOE -> overload (bargraph full) <br />
 If the digits are 0x00, 0xEB, 0x61, 0x00, 0x10 -> overload
