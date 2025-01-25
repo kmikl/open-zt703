@@ -9,7 +9,7 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 - rel (power) button: 0x30,0x30 <br />
 - range button: 0x20,0x20 <br />
 - range button long push: 0x22,0x22 <br />
-- hold button: 0x10,0x10 <- this does not do anything apart from beeping <br />
+- hold button: 0x10,0x10 <- this does not do anything apart from beeping and setting bit7 in byte 11 <br />
  <br />
 Data sent from the DTM0660L chip is basically the segment data: 18 bytes at 9600-8-N-1<br />
 - byte 0: 0xFF <br />
@@ -37,8 +37,8 @@ If bit 4 of the first digit is set, the value is negative <br />
 If bit 4 of an other digit is set, the decimal point _before_ the digit is on <br />
 <br />
 Mode1 decoding: <br />
-- 0x02: Hz <br />
-- 0x03: kHz <br />
+- 0x02: Hz (2nd. measurement, AC mode) <br />
+- 0x03: kHz (2nd. measurement, AC mode) <br />
 - 0x20: Relative measurement <br />
 - 0x40: Continuity <br />
 - 0x80: Diode <br />
@@ -48,6 +48,7 @@ Mode2 decoding: <br />
 - if bit 2 is reset -> manual range <br />
 - if bit 4 is set -> DC <br />
 - if bit 6 is set -> AC <br />
+- if bit 7 is set -> Hold active <br />
  <br />
 Unit1 decoding (only used with Farad): <br />
 - 0x40: n <br />
