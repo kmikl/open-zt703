@@ -1,22 +1,22 @@
 # Display 
  
-Unknown manufacturer 
-Only readable text: XX035009SBIO V2 
-Size: 3.5" 
-Resolution: 320x240 
-Pin count: 54 
-Backlight current limit: 20mA 
-Backlight voltage: around 17V 
-Synchronisation: DE-mode only 
-DE polarity: active high 
-Pixel clock: 20MHz(Stock), fmin is around 5Mhz 
+Unknown manufacturer
+- Only readable text: XX035009SBIO V2
+- Size: 3.5"
+- Resolution: 320x240
+- Pin count: 54
+- Backlight current limit: 20mA
+- Backlight voltage: around 17V
+- Synchronisation: DE-mode only
+- DE polarity: active high
+- Pixel clock: 20MHz(Stock), fmin is around 5Mhz
  
-DE timing: 
-Horizontal active 16µs -> 320 pixels 
-Horizontal blanking: 9µs -> 180 pixels 
-Vertical active: 6ms -> 240 rows 
-Vertical blanking: 550µs -> 22 rows 
-One full image consist of 131.000 pixel clock cycles 
+DE timing:
+- Horizontal active 16µs -> 320 pixels
+- Horizontal blanking: 9µs -> 180 pixels
+- Vertical active: 6ms -> 240 rows
+- Vertical blanking: 550µs -> 22 rows
+- One full image consist of 131.000 pixel clock cycles
  
 Pin connections: 
 - 1+2: LED K 
