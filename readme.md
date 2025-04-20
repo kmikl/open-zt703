@@ -3,14 +3,15 @@
 Work in progress
 
 General:
-- USB mass storage mode <-done
+- [X] USB mass storage mode
+- [X] get FatFS working
+- [X] add CDC to the USB mode for remote control
 
 DMM:
 - [X] recreate original functionality
 - [ ] switchable analog scale (bargraph)
 - [ ] add CSV logging
-- [X]  add graph history
-- [X] add CDC to the USB mode for remote control of the DMM
+- [X] add graph history
 - [ ] add limits <-current goal
 - [ ] add a 4-20mA mode
 - [ ] add a temperature measurement mode
