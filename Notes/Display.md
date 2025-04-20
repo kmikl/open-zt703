@@ -9,13 +9,14 @@ Backlight current limit: 20mA <br />
 Backlight voltage: around 17V <br />
 Synchronisation: DE-mode only <br />
 DE polarity: active high <br />
-Pixel clock: 20MHz <br />
+Pixel clock: 20MHz(Stock), fmin is around 5Mhz <br />
  <br />
 DE timing: <br />
 Horizontal active 16µs -> 320 pixels <br />
 Horizontal blanking: 9µs -> 180 pixels <br />
 Vertical active: 6ms -> 240 rows <br />
 Vertical blanking: 550µs -> 22 rows <br />
+One full image consist of 131.000 pixel clock cycles <br />
  <br />
 Pin connections: <br />
 - 1+2: LED K <br />
@@ -36,3 +37,5 @@ Pin connections: <br />
 - 43-51: NC <br />
 - 52: DE -> MCU pin 43 <br />
 - 53+54: GND <br />
+<br />
+The display has no auto-refresh, if not given a pixel clock (or the frequency is too low), it cycles through test images (all pixels white, red, green, blue, black).

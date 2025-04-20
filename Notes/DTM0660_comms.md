@@ -7,8 +7,8 @@ Data sent to the DTM0660L chip: 2 bytes at 9600-8-N-1 <br />
 - 10A button: 0x80,0x80 <br />
 - mA button: 0x90,0x90 <br />
 - rel (power) button: 0x30,0x30 <br />
-- range button: 0x20,0x20 <- cylces through the manual ranges <br />
-- range button long push: 0x22,0x22 <- this switches to autrange <br /> 
+- range button: 0x20,0x20 <- cycles through the manual ranges <br />
+- range button long push: 0x22,0x22 <- this switches to autorange <br /> 
 - hold button: 0x10,0x10 <- this does not do anything apart from beeping and setting the hold bit in byte mode2 <br />
  <br />
 Data sent from the DTM0660L chip is basically the segment data: 18 bytes at 9600-8-N-1<br />
