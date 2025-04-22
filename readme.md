@@ -4,8 +4,9 @@ Work in progress
 
 General:
 - [X] USB mass storage mode
-- [X] get FatFS working
-- [X] add CDC to the USB mode for remote control
+- [X] FatFS
+- [X] CDC to the USB mode for remote control
+- [X] menu system
 
 DMM:
 - [X] recreate original functionality
