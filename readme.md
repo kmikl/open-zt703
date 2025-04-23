@@ -12,9 +12,9 @@ General:
 DMM:
 - [X] recreate original functionality
 - [ ] ~~switchable analog scale (bargraph)~~
-- [ ] add CSV logging
+- [ ] add CSV logging <-current goal
 - [X] add graph history
-- [ ] add limits <-current goal
+- [ ] add limits 
 - [ ] add a 4-20mA mode
 - [ ] add a temperature measurement mode
 
