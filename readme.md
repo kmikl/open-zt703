@@ -8,11 +8,12 @@ General:
 - [X] USB-CDC mode for remote control
 - [X] menu system
 - [ ] load and save settings on power up/down
+- [ ] bootloader <- current goal
 
 DMM:
 - [X] recreate original functionality
 - [ ] ~~switchable analog scale (bargraph)~~
-- [ ] add CSV logging <-current goal
+- [X] add CSV compatible logging
 - [X] add graph history
 - [ ] add limits 
 - [ ] add a 4-20mA mode
