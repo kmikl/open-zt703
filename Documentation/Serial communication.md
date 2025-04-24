@@ -6,9 +6,10 @@ Data sent from the meter to the PC:
 (Measured value) (Unit) (2nd. Value) (Mode) (Logging) </br>
 Example: 205.23mVAC 51.94 Hz A
 
-Measured value: main measured value
-Unit: self explanatory
-2nd. value: frequency, only sent in AC mode
+- Measured value: main measured value
+- Unit: self explanatory
+- 2nd. value: frequency, only sent in AC mode
+
 Mode:
 - A : autorange
 - H : hold active, the measured values are still sent over USB, only the screen is frozen
