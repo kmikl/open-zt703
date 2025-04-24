@@ -3,7 +3,7 @@
 The firmware support remote control and monitoring over a USB-CDC connection
 
 Data sent from the meter to the PC:
-(Measured value) (Unit) (2nd. Value) (Mode) (Logging)
+(Measured value) (Unit) (2nd. Value) (Mode) (Logging) </br>
 Example: 205.23mVAC 51.94 Hz A
 
 Measured value: main measured value
