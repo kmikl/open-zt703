@@ -1,6 +1,6 @@
 # DMM Mode
 
-Status Bar description:
+Status bar description:
 - AVG: averaging active
 - USB: USB connection active
 - AUTO: autorange active
