@@ -2,13 +2,15 @@
 
 The firmware support remote control and monitoring over a USB-CDC connection
 
-Data sent from the meter to the PC:
+Data sent from the meter to the PC:</br>
 (Measured value) (Unit) (2nd. Value) (Mode) (Logging) </br>
 Example: 205.23mVAC 51.94 Hz A
 
-- Measured value: main measured value
-- Unit: self explanatory
-- 2nd. value: frequency, only sent in AC mode
+Measured value: main measured value</br>
+
+Unit: self explanatory</br>
+
+2nd. value: frequency, only sent in AC mode</br>
 
 Mode:
 - A : autorange
