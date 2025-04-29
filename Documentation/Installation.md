@@ -12,7 +12,7 @@ To install the bootloader:
 On first startup:
 - external flash will be erased, and a new filesystem will be created, this takes a while.
 - the meter reboots, when finished
-- SPI flash checksum failed will be displayed
+- having no firmware installed, SPI flash checksum failed will be displayed
 - now the meters internal filesystem will be available over USB
 - copy the file OPNZT703.UPD to the UPDATE folder
 - when finished press the PWR button, the meter will reboot
