@@ -35,5 +35,5 @@ Erasing the firmware:
 - F2 can be released, when the message Creating filesystem is displayed
 - when finished, the meter will reboot
 - having no firmware installed, SPI flash checksum failed will be displayed
+- now the meters internal filesystem will be available over USB
   
-
