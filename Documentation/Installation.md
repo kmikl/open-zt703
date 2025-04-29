@@ -4,7 +4,7 @@ To install the bootloader:
 - install STM32CubeProgrammer
 - select debugger
 - connect
-- full chip erase
+- execute Full chip erase
 - select bootloader .hex file from filesystem in the Erasing and Programming menu
 - check the options: Verify programming, Run after programming
 - hit start programming
