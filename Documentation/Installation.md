@@ -6,7 +6,7 @@ To install the bootloader:
 - connect
 - execute Full chip erase
 - select bootloader .hex file from filesystem in the Erasing and Programming menu
-- check the options: Verify programming, Run after programming
+- turn on the options: Verify programming, Run after programming
 - hit start programming
 
 On first startup:
@@ -14,7 +14,7 @@ On first startup:
 - the meter reboots, when finished
 - having no firmware installed, SPI flash checksum failed will be displayed
 - now the meters internal filesystem will be available over USB
-- copy the file OPNZT703.UPD to the UPDATE folder
+- copy the file OPNZT703.UPD into the UPDATE folder
 - when finished press the PWR button, the meter will reboot
 - the new firmware will be checked and written to flash
 - when finished, the meter will reboot into the new firmware
@@ -36,4 +36,3 @@ Erasing the firmware:
 - when finished, the meter will reboot
 - having no firmware installed, SPI flash checksum failed will be displayed
 - now the meters internal filesystem will be available over USB
-  
