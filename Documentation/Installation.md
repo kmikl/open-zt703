@@ -8,6 +8,7 @@ To install the bootloader:
 - select bootloader .hex file from filesystem in the Erasing and Programming menu
 - turn on the options: Verify programming, Run after programming
 - hit start programming
+- press disconnect
 
 On first startup:
 - external flash will be erased, and a new filesystem will be created, this takes a while.
