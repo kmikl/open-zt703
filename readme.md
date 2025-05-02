@@ -8,7 +8,8 @@ General:
 - [X] USB-CDC mode for remote control
 - [X] menu system
 - [ ] load and save settings on power up/down
-- [X] bootloader 
+- [X] bootloader
+- [ ] bootloader update functionality
 
 DMM:
 - [X] recreate original functionality
