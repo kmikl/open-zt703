@@ -1,6 +1,6 @@
 # Serial communication
 
-The firmware support remote control and monitoring over a USB-CDC connection
+The firmware supports remote control and monitoring over a USB-CDC connection
 
 Data sent from the meter to the PC in DMM mode:</br>
 (Measured value) (Unit) (2nd. Value) (Mode) (Logging) </br>
@@ -18,7 +18,7 @@ Mode:
 - R : relative measurement activated
 - C : continuity mode
 - D : diode mode
-- L : logging activated (all keys, except PWR/REL and HOLD/SAVE) are deactivated
+- L : logging activated (all buttons, except PWR/REL and HOLD/SAVE) are deactivated
 
 Commands, that can be sent from the PC to the meter
 - 1: button F1
@@ -31,8 +31,8 @@ Commands, that can be sent from the PC to the meter
 - 8: button AUTO/RANGE long press
 - 9: button HOLD/SAVE long press
 - 0: button MODE short press
-- enter : button MENU
-- left : button LEFT
-- right : button RIGHT
-- up : button UP
-- down: button DOWN
+- enter (0x0D) : button MENU
+- up (0x41) : button UP
+- down (0x42) : button DOWN
+- right (0x43) : button RIGHT
+- left (0x44) : button LEFT
