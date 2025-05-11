@@ -18,7 +18,7 @@ DMM:
 - [X] add graph history
 - [ ] add limits <- current goal
 - [ ] add a 4-20mA mode
-- [X] add RTD temperature measurement mode
+- [X] add RTD (Pt100 / Pt500 / Pt1000 / Pt2000) temperature measurement mode
 - [ ] add TC temperature measurement mode
 
 Scope:
