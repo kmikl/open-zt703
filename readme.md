@@ -18,7 +18,8 @@ DMM:
 - [X] add graph history
 - [ ] add limits <- current goal
 - [ ] add a 4-20mA mode
-- [ ] add a temperature measurement mode
+- [X] add RTD temperature measurement mode
+- [ ] add TC temperature measurement mode
 
 Scope:
 - [ ] no overclocking
