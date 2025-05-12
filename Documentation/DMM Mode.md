@@ -39,7 +39,7 @@ Every measuerement mode has its own inviidual limit settings
 ## Graph display menu:
 - **Clear** : clears the graph buffer and the minimum and maximum values
 - **Show graph** : enable/disable the graph display
-- **Show envelope** : enable/disable showing the minimum and maximum envelope on the graph display (the envelope is only whown, if the averaging is turned on)
+- **Show envelope** : enable/disable showing the minimum and maximum envelope on the graph display (the envelope is only shown, if the averaging is turned on)
 - **Line interpolation** : enable/disable the line interpolation between measured points
 - **Vertical autorange** : enable/disable autoranging on the vertical axis of the graph
 - **Vertical manual minimum** : set the minimum vertical value
