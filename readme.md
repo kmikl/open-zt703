@@ -10,7 +10,7 @@ General:
 - [ ] load and save settings on power up/down
 - [X] bootloader
 - [ ] bootloader update functionality
-- [ ] screenshot
+- [ ] screenshots
 
 DMM:
 - [X] recreate original functionality
@@ -23,11 +23,15 @@ DMM:
 - [ ] add TC temperature measurement mode
 
 Scope:
-- [ ] no overclocking
-- [ ] proper triggering, even if the display has to be swithed off
+- [ ] basic functions
+- [ ] cursors
+- [ ] measurements
 - [ ] user control of sampling speed, memory depth
-- [ ] equivalent sampling for repeating signals
 - [ ] voltage calibration
+- [ ] capture buffer dumping additionally to a screenshot
+- [ ] counter mode
+- [ ] quadrature encoder mode
+- [ ] decoders for simple serial protocols (RS422/RS485, RS232, I2C)
 
 Signal generator (still a toy):
 - [X] PWM output
