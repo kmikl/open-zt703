@@ -29,6 +29,8 @@ Scope:
 - [ ] user control of sampling speed, memory depth
 - [ ] voltage calibration
 - [ ] capture buffer dumping additionally to a screenshot
+- [ ] X-Y mode
+- [ ] persistance
 - [ ] counter mode
 - [ ] quadrature encoder mode
 - [ ] decoders for simple serial protocols (RS422/RS485, RS232, I2C)
