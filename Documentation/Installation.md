@@ -1,6 +1,6 @@
 # Installation
 
-To install the bootloader:
+## To install the bootloader:
 - install STM32CubeProgrammer
 - select debugger
 - connect
@@ -10,7 +10,7 @@ To install the bootloader:
 - hit start programming
 - press disconnect
 
-On first startup:
+## On first startup:
 - external flash will be erased, and a new filesystem will be created, this takes a while.
 - the meter reboots, when finished
 - having no firmware installed, SPI flash checksum failed will be displayed
@@ -21,7 +21,7 @@ On first startup:
 - when finished, the meter will reboot into the new firmware
 - the file OPNZT703.UPD can be deleted, no need for it anymore
 
-Updating the firmware:
+## Updating the firmware:
 - copy the new OPNZT703.UPD to the UPDATE folder
 - power the meter off
 - hold the F3 button, while powering the meter on
@@ -30,7 +30,7 @@ Updating the firmware:
 - when finished, the meter will reboot into the new firmware
 - the file OPNZT703.UPD can be deleted, no need for it anymore
 
-Erasing the firmware:
+## Erasing the firmware:
 - power the meter off
 - hold the F2 button, while powering the meter on
 - F2 can be released, when the message Creating filesystem is displayed
