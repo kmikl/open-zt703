@@ -11,7 +11,7 @@
 - press disconnect
 
 ## On first startup:
-- external flash will be erased, and a new filesystem will be created, this takes a while.
+- the external flash will be erased, and a new filesystem will be created, this takes a while.
 - the meter reboots, when finished
 - having no firmware installed, SPI flash checksum failed will be displayed
 - now the meters internal filesystem will be available over USB
