@@ -20,6 +20,7 @@ Mode:
 - C : continuity mode
 - D : diode mode
 - T : temperature mode
+- 4 : 4-20mA mode
 - L : logging activated (all buttons, except PWR/REL and HOLD/SAVE) are deactivated
 
 Commands, that can be sent from the PC to the meter
