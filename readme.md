@@ -10,6 +10,7 @@ General:
 - [ ] load and save settings on power up/down
 - [X] bootloader
 - [ ] bootloader update functionality
+- [ ] screenshot
 
 DMM:
 - [X] recreate original functionality
