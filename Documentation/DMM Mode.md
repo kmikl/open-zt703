@@ -14,7 +14,7 @@
 - **Right button** : enter submenu / activate or deactivate function / change parameter
 - **Up button** : go up in the menu
 - **Down button** : go down in the menu
-- **Menu button** : enter or exit the menu</br>
+- **Menu button** : show or hide the menu</br>
 
 Activated settings and functions have a checkmark before them.
 
