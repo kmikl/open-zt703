@@ -21,7 +21,7 @@ DMM:
 - [X] add a 4-20mA mode
 - [X] add RTD (Pt100 / Pt500 / Pt1000 / Pt2000) temperature measurement mode
 - [ ] add TC temperature measurement mode
-- [ ] graph buffer dumping additionally to a screenshot
+- [ ] graph buffer dumping to file additionally to a screenshot
 
 Scope:
 - [ ] basic functions
@@ -29,7 +29,7 @@ Scope:
 - [ ] measurements
 - [ ] user control of sampling speed, memory depth
 - [ ] voltage calibration
-- [ ] capture buffer dumping additionally to a screenshot
+- [ ] capture buffer dumping to file additionally to a screenshot
 - [ ] X-Y mode
 - [ ] persistance
 - [ ] counter mode
