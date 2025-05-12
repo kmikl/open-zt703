@@ -34,7 +34,7 @@ Activated settings and functions have a checkmark before them.
 - **Set minimum limit**
 - **Set maximum limit**</br>
 
-Every measurement mode has its own inviidual limit settings
+Every measurement mode has its own inviidual limit settings.
 
 ## Graph display menu:
 - **Clear** : clears the graph buffer and the minimum and maximum values
@@ -43,7 +43,9 @@ Every measurement mode has its own inviidual limit settings
 - **Line interpolation** : enable/disable the line interpolation between measured points
 - **Vertical autorange** : enable/disable autoranging on the vertical axis of the graph
 - **Vertical manual minimum** : set the minimum vertical value
-- **Vertical manual maximum** : set the maximum vertical value
+- **Vertical manual maximum** : set the maximum vertical value</br>
+
+The graph settings apply to all measurement modes.
 
 
 
