@@ -34,7 +34,7 @@ Activated settings and functions have a checkmark before them.
 - **Set minimum limit**
 - **Set maximum limit**</br>
 
-Every measuerement mode has its own inviidual limit settings
+Every measurement mode has its own inviidual limit settings
 
 ## Graph display menu:
 - **Clear** : clears the graph buffer and the minimum and maximum values
