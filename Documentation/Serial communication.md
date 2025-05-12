@@ -10,7 +10,8 @@ Measured value: main measured value</br>
 
 Unit: self explanatory</br>
 
-2nd. value: frequency, only sent in AC mode</br>
+2nd. value: frequency, in AC mode</br>
+2nd. value: resistance, in temperature mode</br>
 
 Mode:
 - A : autorange
