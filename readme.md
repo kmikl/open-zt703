@@ -17,6 +17,7 @@ DMM:
 - [ ] ~~switchable analog scale (bargraph)~~
 - [X] add CSV compatible logging
 - [X] add graph history
+- [X] add averaging
 - [ ] add limits <- current goal
 - [X] add a 4-20mA mode
 - [X] add RTD (Pt100 / Pt500 / Pt1000 / Pt2000) temperature measurement mode
