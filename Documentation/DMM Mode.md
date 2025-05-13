@@ -23,10 +23,10 @@
 Logging to internal the flash, the log file will be saved in the LOGS folder, maximum 128 files are allowed in the folder. If averaging is enabled, the minimum, maximum and average values are saved to the log file, else only the current measured value will be saved. Turning on logging will automatically disable USB (charging is still possible), hold mode and relative measurement. After turning on logging, all buttons except **PWR/REL** and **HOLD/SAVE** are disabled, so the meter has to be set-up as required, before turning on logging. In logging mode a short press of the **PWR/REL** button will turn the display on/off, a long press of the **HOLD/SAVE** button turns logging off again.
 
 ## 4-20mA mode
-The main measurement value will be replaced with a polartiy independent percentage value of a 4-20mA current loop. The actual measured current is displayed as the second measurement value. 
+The main measurement value will be replaced with a polarity independent percentage value of a 4-20mA current loop. The actual measured current is displayed as the second measurement value. The current loop has to be connected to the **mA** socket and the **COM** socket
 
 ## RTD mode
-The main measurement value will be replaced with the calculated temperature. The actual measured resistance is displayed as the second measurement value.
+The main measurement value will be replaced with the calculated temperature. The actual measured resistance is displayed as the second measurement value. The RTD has to be connected to the meter like any resistor.
 
 ## Menu usage
 - **Left button** : go back one level
