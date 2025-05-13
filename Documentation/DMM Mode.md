@@ -90,10 +90,10 @@ The averaging settings apply to all measurement modes.
 - **Unit: Kelvin** : select the measurement unit here
 
 ## DMM setting menu
-- **Backlight** : enter the menu, to change the backlight intensity
+- **Backlight intensity** : enter the menu, to change the backlight intensity
 - **HOLD/SAVE function** : change what the long press of the HOLD/SAVE button should do
 
-### Backlight menu
+### Backlight intensity menu
 - **10%** : sets the backlight intensity
 - **20%** : sets the backlight intensity
 - **30%** : sets the backlight intensity
