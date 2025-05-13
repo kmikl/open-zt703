@@ -10,7 +10,7 @@ General:
 - [ ] load and save settings on power up/down
 - [X] bootloader
 - [ ] bootloader update functionality
-- [ ] screenshots
+- [X] screenshots
 
 DMM:
 - [X] recreate original functionality
@@ -21,7 +21,7 @@ DMM:
 - [X] add a 4-20mA mode
 - [X] add RTD (Pt100 / Pt500 / Pt1000 / Pt2000) temperature measurement mode
 - [ ] add TC temperature measurement mode
-- [ ] graph buffer dumping to file additionally to a screenshot
+- [X] graph buffer dumping to file additionally to a screenshot
 
 Scope:
 - [ ] basic functions
