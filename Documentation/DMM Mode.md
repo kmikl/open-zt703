@@ -22,7 +22,7 @@
 ## Logging mode
 Logging to internal the flash, the log file will be saved in to LOGS folder, maximum 128 files are allowed in the folder. If averaging is enabled, the minimum, maximum and average values are saved to the log file, else only the current measured value will be saved. Turning on logging will automatically disable USB (charging is still possible), hold mode and relative measurement. After turning on logging, all buttons except **PWR/REL** and **HOLD/SAVE** are disabled, so the meter has to be set-up as required, before turning on logging. In logging mode a short press of the **PWR/REL** button will turn the display on/off, a long press of the **HOLD/SAVE** button turns logging off again.
 
-## Menu usage:
+## Menu usage
 - **Left button** : go back one level
 - **Right button** : enter submenu / activate or deactivate function / change parameter
 - **Up button** : go up in the menu
@@ -31,7 +31,7 @@ Logging to internal the flash, the log file will be saved in to LOGS folder, max
 
 Activated settings and functions have a checkmark before them.
 
-## Main menu:
+## Main menu
 - **Limits**
 - **Graph display**
 - **Statistics**
@@ -40,7 +40,7 @@ Activated settings and functions have a checkmark before them.
 - **RTD mode**
 - **Display settings**
 
-## Limits menu:
+## Limits menu
 - **Disabled** : limits function inactive
 - **Alarm if inside window** : the meter will beep and the measured value will be displayed in red, when the measured value is inside the set minimum an maximum limits
 - **Alarm if outside window** : the meter will beep and the measured value will be displayed in red, when the measured value is outside the set minimum an maximum limits
@@ -49,7 +49,7 @@ Activated settings and functions have a checkmark before them.
 
 The settings apply only to the current measurement mode. Every measurement mode has its own inviidual limit settings.
 
-## Graph display menu:
+## Graph display menu
 - **Clear** : clears the graph buffer and the minimum and maximum values
 - **Show graph** : enable/disable the graph display
 - **Show envelope** : enable/disable showing the minimum and maximum envelope on the graph display (only has an effect, if the averaging is turned on)
