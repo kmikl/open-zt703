@@ -11,6 +11,8 @@ General:
 - [X] bootloader
 - [ ] bootloader update functionality
 - [X] screenshots
+- [ ] auto power off
+- [ ] auto screen dimming / power off
 
 DMM:
 - [X] recreate original functionality
