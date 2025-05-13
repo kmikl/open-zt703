@@ -11,7 +11,7 @@
 
 ## General usage
 - **F1 button** : switch between Volts and milliVolts
-- **F2 button** : switch between Amps and millAmps
+- **F2 button** : switch between Amps and milliAmps
 - **F3 button** : switch beteen resistance, continutiy, diode and capacitance modes
 - **F4 button** : switch between DC and AC modes (only works in Volts/milliVolt and Amps/milliAmps modes)
 - **PWR/REL button** : short press turns relative measusement on/off, long press turns the meter on/off
@@ -107,6 +107,6 @@ The averaging settings apply to all measurement modes.
 - **100%** : sets the backlight intensity</br>
 
 ### HOLD/SAVE function menu
-- **Long press for logging** : enables loggint to the internal flash
+- **Long press for logging** : enables logging to the internal flash
 - **Long press for screenshot** : enables saving a screenshot (BMP format)
 - **Screenshot saves graph data** : enables saving the binary dump (floating point format) of the graph data, when saving a screenshot  
