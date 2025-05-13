@@ -38,7 +38,7 @@ Activated settings and functions have a checkmark before them.
 - **Averaging**
 - **4-20mA mode**
 - **RTD mode**
-- **Display settings**
+- **DMM settings**
 
 ## Limits menu
 - **Disabled** : limits function inactive
@@ -89,8 +89,9 @@ The averaging settings apply to all measurement modes.
 - **Unit: Fahrenheit** : select the measurement unit here
 - **Unit: Kelvin** : select the measurement unit here
 
-## Display settings menu
+## DMM setting menu
 - **Backlight** : enter the menu, to change the backlight intensity
+- **HOLD/SAVE function** : change what the long press of the HOLD/SAVE button should do
 
 ### Backlight menu
 - **10%** : sets the backlight intensity
@@ -102,4 +103,9 @@ The averaging settings apply to all measurement modes.
 - **70%** : sets the backlight intensity
 - **80%** : sets the backlight intensity
 - **90%** : sets the backlight intensity
-- **100%** : sets the backlight intensity
+- **100%** : sets the backlight intensity</br>
+
+### HOLD/SAVE function menu
+- **Long press for logging** : enables loggint to the internal flash
+- **Long press for screenshot** : enables saving a screenshot (BMP format)
+- **Screenshot saves graph data** : enables saving the binary dump (floating point format) of the graph data, when saving a screenshot  
