@@ -14,7 +14,7 @@ General:
 
 DMM:
 - [X] recreate original functionality
-- [ ] ~~switchable analog scale (bargraph)~~
+- [ ] switchable analog scale (bargraph)
 - [X] add CSV compatible logging
 - [X] add graph history
 - [X] add averaging
