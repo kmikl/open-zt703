@@ -16,11 +16,11 @@
 - **F4 button** : switch between DC and AC modes (only works in Volts/milliVolt and Amps/milliAmps modes)
 - **PWR/REL button** : short press turns relative measusement on/off, long press turns the meter on/off
 - **AUTO/RANGE button** : short press cycles between manual ranges, long press switches to autorange
-- **HOLD/SAVE button** : short press freezes the measured value (hold mode), long press will depending on the setting, save a screenshot or turns logging mode on/off
+- **HOLD/SAVE button** : short press freezes the measured value (hold mode), long press will depending on the setting, save a screenshot and/or turns logging mode on/off
 - **MODE button** : ~~switches between DMM and oscilloscope modes~~ at the current state of the firmware, this button has no function
 
 ## Logging mode
-Logging to internal the flash, the log file will be saved in to LOGS folder, maximum 128 files are allowed in the folder. If averaging is enabled, the minimum, maximum and average values are saved to the log file, else only the current measured value will be saved. Turning on logging will automatically disable USB (charging is still possible), hold mode and relative measurement. After turning on logging, all buttons except **PWR/REL** and **HOLD/SAVE** are disabled, so the meter has to be set-up as required, before turning on logging. In logging mode a short press of the **PWR/REL** button will turn the display on/off, a long press of the **HOLD/SAVE** button turns logging off again.
+Logging to internal the flash, the log file will be saved in the LOGS folder, maximum 128 files are allowed in the folder. If averaging is enabled, the minimum, maximum and average values are saved to the log file, else only the current measured value will be saved. Turning on logging will automatically disable USB (charging is still possible), hold mode and relative measurement. After turning on logging, all buttons except **PWR/REL** and **HOLD/SAVE** are disabled, so the meter has to be set-up as required, before turning on logging. In logging mode a short press of the **PWR/REL** button will turn the display on/off, a long press of the **HOLD/SAVE** button turns logging off again.
 
 ## Menu usage
 - **Left button** : go back one level
