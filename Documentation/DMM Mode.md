@@ -26,7 +26,7 @@ Logging to internal the flash, the log file will be saved in the LOGS folder, ma
 The main measurement value will be replaced with a polarity independent percentage value of a 4-20mA current loop. The actual measured current is displayed as the second measurement value. The current loop has to be connected to the **mA** socket and the **COM** socket. Relative measuement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
 
 ## RTD mode
-The main measurement value will be replaced with the calculated temperature. The actual measured resistance is displayed as the second measurement value. The RTD has to be connected to the meter like any resistor. Relative measuement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
+Pt100, Pt500, Pt1000, Pt2000 sensors are supported. The main measurement value will be replaced with the calculated temperature. The actual measured resistance is displayed as the second measurement value. The RTD has to be connected to the meter like any resistor. Relative measuement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
 
 ## Menu usage
 - **Left button** : go back one level
