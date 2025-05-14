@@ -21,6 +21,7 @@ Mode:
 - D : diode mode
 - T : temperature mode
 - 4 : 4-20mA mode
+- ! : alarm active because of limits violation
 - L : logging activated (all buttons, except PWR/REL and HOLD/SAVE) are deactivated
 
 Commands, that can be sent from the PC to the meter
