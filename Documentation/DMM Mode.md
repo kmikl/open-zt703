@@ -12,7 +12,7 @@
 ## General usage
 - **F1 button** : switch between Volts and milliVolts
 - **F2 button** : switch between Amps and milliAmps
-- **F3 button** : switch beteen resistance, continutiy, diode and capacitance modes
+- **F3 button** : switch between resistance, continutiy, diode and capacitance modes
 - **F4 button** : switch between DC and AC modes (only works in Volts/milliVolt and Amps/milliAmps modes)
 - **PWR/REL button** : short press turns relative measusement on/off, long press turns the meter on/off
 - **AUTO/RANGE button** : short press cycles between manual ranges, long press switches to autorange
