@@ -7,7 +7,7 @@ General:
 - [X] FatFS
 - [X] USB-CDC mode for remote control
 - [X] menu system
-- [ ] load and save settings on power up/down
+- [X] load and save settings on power up/down
 - [X] bootloader
 - [ ] bootloader update functionality
 - [X] screenshots
@@ -20,10 +20,10 @@ DMM:
 - [X] add CSV compatible logging
 - [X] add graph history
 - [X] add averaging
-- [ ] add limits <- current goal
+- [X] add limits
 - [X] add a 4-20mA mode
 - [X] add RTD (Pt100 / Pt500 / Pt1000 / Pt2000) temperature measurement mode
-- [ ] add TC temperature measurement mode
+- [ ] add TC temperature measurement mode <- current goal
 - [X] graph buffer dumping to file additionally to a screenshot
 
 Scope:
