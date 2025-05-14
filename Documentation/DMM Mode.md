@@ -110,6 +110,7 @@ The averaging settings apply to all measurement modes.
 ## DMM setting menu
 - **Backlight intensity** : enter the menu, to change the backlight intensity
 - **HOLD/SAVE function** : change what the long press of the HOLD/SAVE button should do
+- **Reset all settings** : resets all settings back to default
 - **Format filesystem** : formats the internal filesystem and creates the default folders
 
 ### Backlight intensity menu
