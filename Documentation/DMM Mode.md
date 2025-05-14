@@ -20,19 +20,19 @@
 - **MODE button** : ~~switches between DMM and oscilloscope modes~~ at the current state of the firmware, this button has no function
 
 ## Limit mode
-Limits can be set for each measuring mode independently. First set the min and max limits in the menu, **Left** and **Right** button select the digit, the **Up** and **Down** button change the digit value. If pressing **Left**, when the first digit is selected, editing will be cancelled and all changes to the value will be ignored. The first digit can only be set to '-' (minus) or ' ' (space). When the min and max values are set, select how the alarm should behave. The meter will automatically also exit hold mode (if set), if the alarm condition is met. Please consider the measurement unit, when setting up the min and max limits, eg. when in MΩ mode, it is difficult to set small resistance values and MΩ values will be discarded by the firmware, when editing min/max, of in Ω mode. Alarms are disabled, while in the menu. Limit mode is for useful as example for sorting parts, as a high voltage warning or adding a beep function to the diode mode.
+Limits can be set for each measuring mode independently. First set the min and max limits in the menu, **Left** and **Right** button select the digit, the **Up** and **Down** buttond change the digit value. If pressing **Left**, when the first digit is selected, editing will be cancelled and all changes to the value will be discarded. The first digit can only be set to '-' (minus) or ' ' (space). When the min and max values are set, select how the alarm should behave. The meter will automatically also exit hold mode (if set), if the alarm condition is met. Please consider the measurement unit, when setting up the min and max limits, eg. when in MΩ range, it is difficult to set small resistance values and MΩ values will be discarded, when editing min/max in the Ω range. Alarms are disabled, while in the menu. Limit mode is for useful as example for sorting parts, as a high voltage warning or adding a beep function to the diode mode.
 
 ## Logging mode
-Logging to internal the flash, the log file will be saved in the LOGS folder, maximum 128 files are allowed in the folder. If averaging is enabled, the minimum, maximum and average values are saved to the log file, else only the current measured value will be saved. Turning on logging will automatically disable USB (charging is still possible), hold mode and relative measurement. After turning on logging, all buttons except **PWR/REL** and **HOLD/SAVE** are disabled, so the meter has to be set-up as required, before turning on logging. In logging mode a short press of the **PWR/REL** button will turn the display on/off, a long press of the **HOLD/SAVE** button turns logging off again.
+Logging to internal the flash, the log file will be saved in the LOGS folder, maximum 128 files are allowed in the folder. If averaging is enabled, the minimum, maximum and average values are saved to the log file, else only the current measured value will be saved. Turning on logging will automatically disable USB (charging is still possible), limits, hold mode and relative measurement. After turning on logging, all buttons except **PWR/REL** and **HOLD/SAVE** are disabled, so the meter has to be set-up as required, before turning on logging. In logging mode a short press of the **PWR/REL** button will turn the display on/off to save some power, a long press of the **HOLD/SAVE** button turns logging off again.
 
 ## 4-20mA mode
-The main measurement value will be replaced with a polarity independent percentage value of a 4-20mA current loop. The actual measured current is displayed as the second measurement value. The current loop has to be connected to the **mA** socket and the **COM** socket. Relative measuement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
+The main measurement value will be replaced with a polarity independent percentage value of a 4-20mA current loop. The measured current is displayed as the second measurement value. The current loop has to be connected to the **mA** socket and the **COM** socket. Relative measurement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
 
 ## RTD mode
-Pt100, Pt500, Pt1000, Pt2000 sensors are supported. The main measurement value will be replaced with the calculated temperature. The actual measured resistance is displayed as the second measurement value. The RTD has to be connected to the meter like any resistor. Relative measuement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
+Pt100, Pt500, Pt1000, Pt2000 sensors are supported. The main measurement value will be replaced with the calculated temperature. The actual resistance is displayed as the second measurement value. The RTD has to be connected to the meter like a resistor. Relative measurement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
 
 ## TC mode
-Type K, J, N, S, T thermocouples are supported. The cold junction temperature has to be manually set using the menu (see Limit mode, for how to use the editing function). The main measurement value will be replaced with the calculated temperature. The actual measured voltage is displayed as the second measurement value. The TC has to be connected to the meter like any voltage source. Relative measuement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
+Type K, J, N, S, T thermocouples are supported. The cold junction temperature has to be manually set using the menu (see Limit mode, for how to use the editing function). The main measurement value will be replaced with the calculated temperature. The measured voltage is displayed as the second measurement value. The TC has to be connected to the meter like any voltage source. Relative measurement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
 
 ## Menu usage
 - **Left button** : go back one level
@@ -109,7 +109,7 @@ The averaging settings apply to all measurement modes.
 
 ## DMM setting menu
 - **Backlight intensity** : enter the menu, to change the backlight intensity
-- **HOLD/SAVE function** : change what the long press of the HOLD/SAVE button should do
+- **HOLD/SAVE function** : enter the menu, to change what the long press of the HOLD/SAVE button should do
 - **Reset all settings** : resets all settings back to default
 - **Format filesystem** : formats the internal filesystem and creates the default folders
 
