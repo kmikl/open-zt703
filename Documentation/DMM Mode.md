@@ -42,11 +42,11 @@ Activated settings and functions have a checkmark before them.
 
 ## Main menu
 - **Limits**
-- **Graph display**
-- **Statistics**
+- **Display settings**
 - **Averaging**
 - **4-20mA mode**
 - **RTD mode**
+- **TC mode**
 - **DMM settings**
 
 ## Limits menu
@@ -58,22 +58,17 @@ Activated settings and functions have a checkmark before them.
 
 The settings apply only to the current measurement mode. Every measurement mode has its own inviidual limit settings.
 
-## Graph display menu
+## Display settings menu
 - **Clear** : clears the graph buffer and the minimum and maximum values
 - **Show graph** : enable/disable the graph display
 - **Show envelope** : enable/disable showing the minimum and maximum envelope on the graph display (only has an effect, if the averaging is turned on)
 - **Line interpolation** : enable/disable the line interpolation between measured points
+- **Show statistics** : enable/disable the statistics (minimum / maximum / average) display (only has an effect, if the graph is turned off)</br>
 - **Vertical autorange** : enable/disable autoranging on the vertical axis of the graph
 - **Vertical manual minimum** : set the minimum vertical value
 - **Vertical manual maximum** : set the maximum vertical value</br>
 
 The graph settings apply to all measurement modes.
-
-## Statistics menu
-- **Clear** : clears the graph buffer and the minimum, maximum and average values
-- **Show statistics** : enable/disable the statistics (minimum / maximum / average) display (only has an effect, if the graph is turned off)</br>
-
-The statistics settings apply to all measurement modes.
 
 ## Averaging menu
 - **Disabled** : averaging is disabled
@@ -94,6 +89,17 @@ The averaging settings apply to all measurement modes.
 - **PT500 sensor** : select the connected sensor type here
 - **PT1000 sensor** : select the connected sensor type here
 - **PT2000 sensor** : select the connected sensor type here
+- **Unit: Celsius** : select the measurement unit here
+- **Unit: Fahrenheit** : select the measurement unit here
+- **Unit: Kelvin** : select the measurement unit here
+
+## TC mode menu
+- **Start** : enter the thermocouple measurement mode
+- **Type K sensor** : select the connected sensor type here
+- **Type J sensor** : select the connected sensor type here
+- **Type N sensor** : select the connected sensor type here
+- **Type S sensor** : select the connected sensor type here
+- **Type T sensor** : select the connected sensor type here
 - **Unit: Celsius** : select the measurement unit here
 - **Unit: Fahrenheit** : select the measurement unit here
 - **Unit: Kelvin** : select the measurement unit here
