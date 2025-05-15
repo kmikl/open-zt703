@@ -45,7 +45,7 @@ Work in progress
 ### Additional features
 - [ ] add a counter mode
 - [ ] add a quadrature encoder mode
-- [ ] add a decoders for 2-wire serial protocols (RS422/RS485, RS232, I2C, maybe CAN is also possible)
+- [ ] add decoders for 2-wire serial protocols (RS422/RS485, RS232, I2C, maybe CAN is also possible)
 
 ### Signal generator (still a toy):
 - [X] PWM output
