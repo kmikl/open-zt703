@@ -64,10 +64,10 @@ The settings apply only to the current measurement mode. Every measurement mode 
 ## Display settings menu
 - **Clear** : clears the graph buffer and the minimum and maximum values
 - **Show graph** : enable/disable the graph display
-- **Show envelope** : enable/disable showing the minimum and maximum envelope on the graph display (only has an effect, if the averaging is turned on)
+- **Show envelope** : enable/disable showing the minimum and maximum envelope on the graph display (only has an effect, if the averaging and vertical autorange is turned on)
 - **Line interpolation** : enable/disable the line interpolation between measured points
 - **Show statistics** : enable/disable the statistics (minimum / maximum / average) display (only has an effect, if the graph is turned off)</br>
-- **Vertical autorange** : enable/disable autoranging on the vertical axis of the graph
+- **Vertical autorange** : enable/disable autoranging on the vertical axis of the graph (envelope display is disabled, if this setting is turned off)
 - **Vertical manual minimum** : set the minimum vertical value
 - **Vertical manual maximum** : set the maximum vertical value</br>
 
