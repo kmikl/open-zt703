@@ -11,7 +11,7 @@ General:
 - [X] bootloader
 - [ ] bootloader update functionality
 - [X] screenshots
-- [ ] auto power off
+- [ ] auto power off <- current goal
 - [ ] auto screen dimming / power off
 
 DMM:
@@ -23,7 +23,7 @@ DMM:
 - [X] add limits
 - [X] add a 4-20mA mode
 - [X] add RTD (Pt100 / Pt500 / Pt1000 / Pt2000) temperature measurement mode
-- [ ] add TC (K, J, N, S, T) temperature measurement mode <- current goal
+- [X] add TC (K, J, N, S, T) temperature measurement mode
 - [X] graph buffer dumping to file additionally to a screenshot
 
 Scope:
