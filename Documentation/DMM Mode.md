@@ -32,7 +32,7 @@ The main measurement value will be replaced with a polarity independent percenta
 Pt100, Pt500, Pt1000, Pt2000 sensors are supported. The main measurement value will be replaced with the calculated temperature. The actual resistance is displayed as the second measurement value. The RTD has to be connected to the meter like a resistor. Relative measurement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
 
 ## TC mode
-Type K, J, N, S, T thermocouples are supported. The cold junction temperature has to be manually set using the menu (see Limit mode, for how to use the editing function). The main measurement value will be replaced with the calculated temperature. The measured voltage is displayed as the second measurement value. The TC has to be connected to the meter like any voltage source. Relative measurement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. 
+Type K, J, N, S, T thermocouples are supported. The main measurement value will be replaced with the calculated temperature. The cold junction temperature has to be manually set using the menu (see Limit mode, for how to use the editing function). The measured voltage is displayed as the second measurement value. The TC has to be connected to the meter like any voltage source. Relative measurement mode and manual range setting are disabled in this mode. Press any button from **F1** to **F4** to exit this mode. Thermocouple probes have to be connected with the correct polarity.
 
 ## Menu usage
 - **Left button** : go back one level
