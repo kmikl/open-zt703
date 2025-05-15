@@ -68,10 +68,10 @@ The settings apply only to the current measurement mode. Every measurement mode 
 - **Line interpolation** : enable/disable the line interpolation between measured points
 - **Show statistics** : enable/disable the statistics (minimum / maximum / average) display (only has an effect, if the graph is turned off)</br>
 - **Vertical autorange** : enable/disable autoranging on the vertical axis of the graph (envelope display is disabled, if this setting is turned off)
-- **Vertical manual minimum** : set the minimum vertical value
-- **Vertical manual maximum** : set the maximum vertical value</br>
+- **Vertical manual minimum** : set the minimum vertical value, this setting only applies to the current measurement mode
+- **Vertical manual maximum** : set the maximum vertical value, this setting only applies to the current measurement mode </br>
 
-The graph settings apply to all measurement modes.
+The display settings, with the exception of **Vertical manual minimum** and **Vertical manual maximum** apply to all measurement modes.
 
 ## Averaging menu
 - **Disabled** : averaging is disabled
