@@ -41,6 +41,7 @@ Work in progress
 - [ ] add capture buffer dumping to file additionally to a screenshot
 - [ ] X-Y mode
 - [ ] persistance
+- [ ] auto set-up of parameters (low priority)
 
 ### Additional features
 - [ ] add a counter mode
