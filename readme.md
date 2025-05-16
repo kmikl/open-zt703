@@ -4,7 +4,7 @@ Work in progress
 
 ## Known bugs and limitations
 - the battery level display needs hysteresis added, voltage levels set correctly and testing
-- the pretty buggy DMM chip sometimes just freezes and stops sending data to the MCU. Looks like, this only happens, when switching modes. Some code needed to detect this and reboot the chip. There are already a lot of CPU cycles wasted to work around the bugs of the chip
+- the pretty buggy DMM chip sometimes just freezes and stops sending data to the MCU. Looks like, this only happens, when switching modes or saving a screenshot. Some code needed to detect this and reboot the chip. There are already a lot of CPU cycles wasted to work around the bugs of the chip...
 
 ## Features
 ### General:
@@ -22,7 +22,7 @@ Work in progress
 
 ### DMM:
 - [X] recreate original functionality
-- [ ] recreate analog scale
+- [X] recreate analog scale
 - [X] add CSV compatible logging
 - [X] add graph history
 - [X] add averaging
