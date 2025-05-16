@@ -98,14 +98,14 @@ The averaging settings apply to all measurement modes.
 
 ## TC mode menu
 - **Start** : enter the thermocouple measurement mode
-- **Type K sensor** : select the connected sensor type here
-- **Type J sensor** : select the connected sensor type here
-- **Type N sensor** : select the connected sensor type here
-- **Type S sensor** : select the connected sensor type here
-- **Type T sensor** : select the connected sensor type here
 - **Type B sensor** : select the connected sensor type here
 - **Type E sensor** : select the connected sensor type here
+- **Type J sensor** : select the connected sensor type here
+- **Type K sensor** : select the connected sensor type here
+- **Type N sensor** : select the connected sensor type here
 - **Type R sensor** : select the connected sensor type here
+- **Type S sensor** : select the connected sensor type here
+- **Type T sensor** : select the connected sensor type here
 - **Unit: Celsius** : select the measurement unit here
 - **Unit: Fahrenheit** : select the measurement unit here
 - **Unit: Kelvin** : select the measurement unit here
