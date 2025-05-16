@@ -36,12 +36,14 @@ Work in progress
 - [ ] basic functions
 - [ ] cursors
 - [ ] measurements
+- [ ] math channel (add and substract only)
 - [ ] add user control of sampling speed, memory depth
 - [ ] add voltage calibration
 - [ ] add capture buffer dumping to file additionally to a screenshot
 - [ ] X-Y mode
 - [ ] persistance
 - [ ] auto set-up of parameters (low priority)
+- [ ] FFT (even lower priority)
 
 ### Additional features
 - [ ] add a counter mode
