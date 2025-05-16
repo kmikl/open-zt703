@@ -8,7 +8,7 @@
 - connect
 - execute Full chip erase
 - select bootloader .hex file from filesystem in the Erasing and Programming menu
-- turn on the options (if not turned on alredy): Verify programming, Run after programming
+- turn on the options (if not turned on already): Verify programming, Run after programming
 - hit start programming
 - press disconnect
 
