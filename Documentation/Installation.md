@@ -11,7 +11,7 @@
 - press disconnect
 
 ## On first startup:
-- the external flash will be erased, and a new filesystem will be created, this takes a while.
+- the external flash will be erased, and a new filesystem will be created, this takes a while
 - the meter reboots, when finished
 - having no firmware installed, SPI flash checksum failed will be displayed
 - now the meters internal filesystem will be available over USB
@@ -31,6 +31,7 @@
 - the file OPNZT703.UPD can be deleted, no need for it anymore
 
 ## Erasing the firmware:
+This will also reformat the filesystem and reset all settings to the default values
 - power the meter off
 - hold the F2 button, while powering the meter on
 - F2 can be released, when the message Creating filesystem is displayed
