@@ -29,7 +29,7 @@ Work in progress
 - [X] add limits
 - [X] add a 4-20mA mode
 - [X] add RTD (Pt100 / Pt500 / Pt1000 / Pt2000) temperature measurement mode
-- [X] add TC (K, J, N, S, T) temperature measurement mode
+- [X] add TC (B, E, J, K, N, R, S, T) temperature measurement mode
 - [X] add graph buffer dumping to file additionally to a screenshot
 
 ### Scope:
