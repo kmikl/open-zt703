@@ -2,7 +2,7 @@
 
 ## To install the bootloader:
 - install STM32CubeProgrammer
-- connect an STM32CubeProgrammer compatible SWD capable debugger to the meters debug port: TMS->SWDIO, TCK->SWCLK, VIN-> do not connect, GND->GND 
+- connect an STM32CubeProgrammer compatible SWD capable debugger (ST-Link, Segger J-Link) to the meters debug port: TMS->SWDIO, TCK->SWCLK, VIN-> do not connect, GND->GND 
 - **WARNING**: the meter uses 3V power internally! When connecting a debugger without an output buffer (like most cheap ST-Link V2 clones), that is using 3.3V, the MCU could be damaged. It is recommended to put either series resistors (say 1k) betwen the meter and the debugger communication lines, or take the risk and be quick with the next steps and disconnect the debugger from USB as soon as possible.
 - select the used debugger
 - connect
