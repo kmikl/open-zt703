@@ -19,6 +19,7 @@ Work in progress
 - [ ] auto power off <- current goal
 - [ ] auto screen dimming / power off
 - [ ] low battery voltage power off
+- [ ] user selectable colors (there needs to be enough free CPU cycles left to spare, low priority for now)  
 
 ### DMM:
 - [X] recreate original functionality
