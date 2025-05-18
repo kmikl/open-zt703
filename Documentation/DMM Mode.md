@@ -114,6 +114,8 @@ The averaging settings apply to all measurement modes.
 ## DMM setting menu
 - **Backlight intensity** : enter the menu, to change the backlight intensity
 - **HOLD/SAVE function** : enter the menu, to change what the long press of the HOLD/SAVE button should do
+- **Auto screen dimming timeout** : set the timeout for the screen dimming, after the timeout, the backlight will be dimmed to 2% (only applies to the DMM mode)
+- **Auto power-off timeout** : set the power-off timeout, after the timeout, the meter switches off without saving the settings (only applies to the DMM mode)
 - **Reset all settings** : resets all settings back to default
 - **Format filesystem** : formats the internal filesystem and creates the default folders
 
@@ -133,3 +135,10 @@ The averaging settings apply to all measurement modes.
 - **Long press for logging** : enables logging to the internal flash
 - **Long press for screenshot** : enables saving a screenshot (BMP format)
 - **Screenshot saves graph data** : enables saving the binary dump (floating point format) of the graph data, when saving a screenshot  
+
+### Auto screen dimming timeout / Auto power-off timeout
+- **Off** : timeout off
+- **5 minutes** : sets the timeout
+- **10 minutes** : sets the timeout
+- **30 minutes** : sets the timeout
+- **60 minutes** : sets the timeout
