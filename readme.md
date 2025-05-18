@@ -16,8 +16,8 @@ Work in progress
 - [X] bootloader
 - [ ] bootloader update functionality
 - [X] screenshots
-- [ ] auto power off <- current goal
-- [ ] auto screen dimming / power off
+- [X] auto power off <- current goal
+- [X] auto screen dimming / power off
 - [ ] low battery voltage power off
 - [ ] user selectable colors (there needs to be enough free CPU cycles left to spare, low priority for now)  
 
