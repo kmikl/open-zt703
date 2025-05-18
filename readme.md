@@ -18,7 +18,7 @@ Work in progress
 - [X] screenshots
 - [X] auto power off
 - [X] auto screen dimming / power off
-- [ ] low battery voltage power off <- current goal
+- [X] low battery voltage power off
 - [ ] user selectable colors (there needs to be enough free CPU cycles left to spare, low priority for now)  
 
 ### DMM:
@@ -34,7 +34,7 @@ Work in progress
 - [X] add graph buffer dumping to file additionally to a screenshot
 
 ### Scope:
-- [ ] basic functions
+- [ ] basic functions <- current goal
 - [ ] cursors
 - [ ] measurements
 - [ ] math channel (add and substract only)
