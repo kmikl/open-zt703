@@ -1,7 +1,7 @@
 Known so far about PCB version 2.2: <br />
 <br />
 - ADC: MXT2088 <br />
-- MCU: STM32H7B0V <br />
+- MCU: STM32H7B0V or B3 (anyway, the MCU has 2MB of flash available) <br />
 - Two shift registers as port expander: 74HC595 <br />
 - Analog switches for scope range switching: 4051 <br />
 - SPI flash for data storage: PY25Q128HA <br />
