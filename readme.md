@@ -37,7 +37,7 @@ Work in progress
 - [ ] basic functions <- current goal
 - [ ] cursors
 - [ ] measurements
-- [ ] math channel (add and substract only)
+- [ ] math channel (add and subtract only)
 - [ ] add user control of sampling speed, memory depth
 - [ ] add voltage calibration
 - [ ] add capture buffer dumping to file additionally to a screenshot
@@ -51,6 +51,7 @@ Work in progress
 - [ ] add a quadrature encoder mode
 - [ ] add decoders for 2-wire serial protocols (RS422/RS485, RS232, I2C, 1-Wire, maybe CAN is also possible)
 - [ ] DS18B20 sensor reading (if technically possible, has to be checked later)
+- [ ] inductance measurement (if technically possible, has to be checked later)
 
 ### Signal generator (still a toy):
 - [X] PWM output
